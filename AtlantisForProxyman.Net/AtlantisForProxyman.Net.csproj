@@ -5,9 +5,9 @@
         <ImplicitUsings>true</ImplicitUsings>
         <IsBindingProject>true</IsBindingProject>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         <Title>Atlantis For Proxyman</Title>
-        <Authors>Marc Brady</Authors>
+        <Authors>Orbital8</Authors>
         <Company>Orbital8 Pty Ltd</Company>
         <PackageId>AtlantisForProxyman.Net</PackageId>
         <PackageProjectUrl>https://github.com/Orbital8/dotnet-atlantis-for-proxyman</PackageProjectUrl>
@@ -26,7 +26,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <NativeReference Include="Atlantis.framework">
+        <NativeReference Include="Atlantis.xcframework">
             <Kind>Framework</Kind>
             <SmartLink>False</SmartLink>
         </NativeReference>

@@ -1,0 +1,138 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Atlantis
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Compression
+import Foundation
+import Network
+import ObjectiveC
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import zlib
+extension Atlantis.Atlantis {
+  final public class func add(request: Foundation.URLRequest, response: Foundation.URLResponse, responseBody: Foundation.Data?)
+  final public class func add(request: Foundation.URLRequest, error: any Swift.Error)
+  final public class func add(request: Atlantis.Request, response: Atlantis.Response, responseBody: Foundation.Data?)
+  final public class func addGRPCUnary(path: Swift.String, requestObject: Foundation.Data?, responseObject: Foundation.Data?, success: Swift.Bool, statusCode: Swift.Int, statusMessage: Swift.String?, startedAt: Foundation.Date?, endedAt: Foundation.Date?, HPACKHeadersRequest: [Atlantis.Header] = [], HPACKHeadersResponse: [Atlantis.Header] = [])
+  final public class func addGRPCStreaming(id: Foundation.UUID, path: Swift.String, message: Atlantis.WebsocketMessagePackage.Message, success: Swift.Bool, statusCode: Swift.Int, statusMessage: Swift.String?, streamingType: Atlantis.Atlantis.GRPCStreamingType, type: Atlantis.WebsocketMessagePackage.MessageType, startedAt: Foundation.Date?, endedAt: Foundation.Date?, HPACKHeadersRequest: [Atlantis.Header] = [], HPACKHeadersResponse: [Atlantis.Header] = [])
+  public enum GRPCStreamingType {
+    case client
+    case server
+    case bidirectional
+    public static func == (a: Atlantis.Atlantis.GRPCStreamingType, b: Atlantis.Atlantis.GRPCStreamingType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public protocol AtlantisDelegate : AnyObject {
+  func atlantisDidHaveNewPackage(_ package: Atlantis.TrafficPackage)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class Atlantis : ObjectiveC.NSObject {
+  public static let buildVersion: Swift.String
+  @objc final public class func start(hostName: Swift.String? = nil, shouldCaptureWebSocketTraffic: Swift.Bool = true)
+  @objc final public class func stop()
+  final public class func setEnableTransportLayer(_ isEnabled: Swift.Bool)
+  final public class func setIsRunningOniOSPlayground(_ isEnabled: Swift.Bool)
+  final public class func setDelegate(_ delegate: any Atlantis.AtlantisDelegate)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class TrafficPackage : Swift.Codable, Swift.CustomDebugStringConvertible {
+  public enum PackageType : Swift.String, Swift.Codable {
+    case http
+    case websocket
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  final public let id: Swift.String
+  final public let startAt: Foundation.TimeInterval
+  final public let request: Atlantis.Request
+  final public var response: Atlantis.Response? {
+    get
+  }
+  final public var error: Atlantis.CustomError? {
+    get
+  }
+  final public var responseBodyData: Foundation.Data {
+    get
+  }
+  final public var endAt: Foundation.TimeInterval? {
+    get
+  }
+  final public var lastData: Foundation.Data? {
+    get
+  }
+  final public let packageType: Atlantis.TrafficPackage.PackageType
+  final public var debugDescription: Swift.String {
+    get
+  }
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Header : Swift.Codable {
+  public let key: Swift.String
+  public let value: Swift.String
+  public init(key: Swift.String, value: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers final public class Request : Swift.Codable {
+  final public let url: Swift.String
+  final public let method: Swift.String
+  final public let headers: [Atlantis.Header]
+  final public var body: Foundation.Data? {
+    get
+  }
+  public init(url: Swift.String, method: Swift.String, headers: [Atlantis.Header], body: Foundation.Data?)
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Response : Swift.Codable {
+  public let statusCode: Swift.Int
+  public let headers: [Atlantis.Header]
+  public init(statusCode: Swift.Int, headers: [Atlantis.Header])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CustomError : Swift.Codable {
+  public let code: Swift.Int
+  public let message: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct WebsocketMessagePackage : Swift.Codable {
+  public enum MessageType : Swift.String, Swift.Codable {
+    case pingPong
+    case send
+    case receive
+    case sendCloseMessage
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum Message {
+    case data(Foundation.Data)
+    case string(Swift.String)
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Atlantis.Atlantis.GRPCStreamingType : Swift.Equatable {}
+extension Atlantis.Atlantis.GRPCStreamingType : Swift.Hashable {}
+extension Atlantis.TrafficPackage.PackageType : Swift.Equatable {}
+extension Atlantis.TrafficPackage.PackageType : Swift.Hashable {}
+extension Atlantis.TrafficPackage.PackageType : Swift.RawRepresentable {}
+extension Atlantis.WebsocketMessagePackage.MessageType : Swift.Equatable {}
+extension Atlantis.WebsocketMessagePackage.MessageType : Swift.Hashable {}
+extension Atlantis.WebsocketMessagePackage.MessageType : Swift.RawRepresentable {}

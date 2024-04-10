@@ -10,39 +10,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sqhRVGoFw2ttOzA51KTUqTQkNqQ=
+		pKC0zA8j2Et0IXkRn9Uv3rQaGD4=
 		</data>
 		<key>Modules/Atlantis.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		OKm08X+NxdSVgmZfdT896KX9R84=
+		1cpj5V6RSfpToyB/HS/ZCJ78NYM=
 		</data>
 		<key>Modules/Atlantis.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		GHD8spySaBKoUXcSevfTLnb6/eY=
+		3NeuHmFJerlhBP42OaC9A9jrRzo=
 		</data>
 		<key>Modules/Atlantis.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		/LT9DGZzXx+Xy14p51vMjfmijIU=
+		</data>
+		<key>Modules/Atlantis.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		ltz2a8FFF4uFRmY5qPsG0aF3Xt4=
 		</data>
 		<key>Modules/Atlantis.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		HdMlCEuhsnKhP9uZtGyUYDZ4tmw=
 		</data>
+		<key>Modules/Atlantis.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		ltz2a8FFF4uFRmY5qPsG0aF3Xt4=
+		</data>
 		<key>Modules/Atlantis.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+/jQ+MdSb66ddJRqQGLwLtsffY8=
+		Oj6hqXdRptgb1FbdvGp78wQQcTY=
 		</data>
 		<key>Modules/Atlantis.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FSPnLbho3G+LL9smI3XgVOqBIQ4=
+		/LT9DGZzXx+Xy14p51vMjfmijIU=
+		</data>
+		<key>Modules/Atlantis.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		OeLF4FOe6XJ35qJpHsv9tpQ1q+8=
 		</data>
 		<key>Modules/Atlantis.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		2hDN5HWgxNclf2j9pEFwXMi3ZW4=
 		</data>
+		<key>Modules/Atlantis.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		OeLF4FOe6XJ35qJpHsv9tpQ1q+8=
+		</data>
 		<key>Modules/Atlantis.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6Y/Iunk7mZkitlQQwUZDrtjnSXE=
+		g/USEcrcsxcuWj1N0UYwcoFshNE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -58,21 +74,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z1mjXtMeoZ0GZdwSDemBbE87UbEudPrkKrtwT2zI2bc=
+			eG1X1XY5XyCmO3R9LitcNdcMT/296upw+1Uuf9n6X/k=
 			</data>
 		</dict>
 		<key>Modules/Atlantis.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L4Y9yEbAWh5QmGpFLE+Q51FBXKdCAtFXk+WxrfceR5w=
+			B+NQfTqk9ZW3vDSjhH1mxiWELJTUYGfQvg276uE+5lI=
 			</data>
 		</dict>
 		<key>Modules/Atlantis.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			0ACrutuWDz8FNjiBQ9TzxAHQJ5I1Wb+hAyMZ9l0nst8=
+			</data>
+		</dict>
+		<key>Modules/Atlantis.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I/6J2Rg8QO4HAMH7kh4UTb+jj4jn+ZQGFvt6B7B+ES8=
 			</data>
 		</dict>
 		<key>Modules/Atlantis.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -82,18 +105,32 @@
 			3Fjq3m1iNcZ+mQYQaWnX/g32VcjlU4nT9J8m6sZAWgA=
 			</data>
 		</dict>
+		<key>Modules/Atlantis.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I/6J2Rg8QO4HAMH7kh4UTb+jj4jn+ZQGFvt6B7B+ES8=
+			</data>
+		</dict>
 		<key>Modules/Atlantis.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+y0gPViRVF1Xt6O61rJLUeHbAfkVcHDrP0SVw94/I/I=
+			rJjEyH3v2YwrIKF77idwn8rt1Or2WRek5Rwo66GPU1M=
 			</data>
 		</dict>
 		<key>Modules/Atlantis.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KnRdWE4y6t4QM5zi5JDptPdHFgJy1Tku+7GLkZS2aNM=
+			0ACrutuWDz8FNjiBQ9TzxAHQJ5I1Wb+hAyMZ9l0nst8=
+			</data>
+		</dict>
+		<key>Modules/Atlantis.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			24wyzd85jsa5uaxWm66S/9ksh2it4pNKLFriAulu/xI=
 			</data>
 		</dict>
 		<key>Modules/Atlantis.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -103,11 +140,18 @@
 			cQ8OmQuZoxST2C5IFWHfuWn9Xl7cCvtNgY8BN5mEkBc=
 			</data>
 		</dict>
+		<key>Modules/Atlantis.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			24wyzd85jsa5uaxWm66S/9ksh2it4pNKLFriAulu/xI=
+			</data>
+		</dict>
 		<key>Modules/Atlantis.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gXZrGnVG5CMHrZ94B60IMiPodwP3lo5/YeTj/KL/0Do=
+			uoh/ktMmUwQuCYpt3OiaF60xQ8Oy64TWLgK+kfDGTDU=
 			</data>
 		</dict>
 	</dict>
