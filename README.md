@@ -18,7 +18,7 @@ AtlantisForProxyman.Net is a dotnet binding to the fantastic [Atlantis library f
 
    ```
    #if DEBUG
-   Atlantis.start()
+   Atlantis.Start()
    #endif
    ```
 
