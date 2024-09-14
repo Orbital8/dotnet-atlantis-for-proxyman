@@ -371,7 +371,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AtlantisDelegate",
-                "printedName": "Atlantis.AtlantisDelegate",
+                "printedName": "any Atlantis.AtlantisDelegate",
                 "usr": "s:8Atlantis0A8DelegateP"
               }
             ],
@@ -456,7 +456,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -1153,12 +1153,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -1630,12 +1630,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.String?, Foundation.Data?, Swift.Error?) -> ())?",
+                "printedName": "((Swift.String?, Foundation.Data?, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String?, Foundation.Data?, Swift.Error?) -> ()",
+                    "printedName": "(Swift.String?, Foundation.Data?, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1645,7 +1645,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.String?, Foundation.Data?, Swift.Error?)",
+                        "printedName": "(Swift.String?, Foundation.Data?, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -1678,12 +1678,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -3856,7 +3856,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Serializable",
-                "printedName": "Atlantis.Serializable",
+                "printedName": "any Atlantis.Serializable",
                 "usr": "s:8Atlantis12SerializableP"
               }
             ],
@@ -3890,7 +3890,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Serializable",
-                "printedName": "Atlantis.Serializable",
+                "printedName": "any Atlantis.Serializable",
                 "usr": "s:8Atlantis12SerializableP"
               }
             ],
@@ -3921,7 +3921,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Serializable",
-                "printedName": "Atlantis.Serializable",
+                "printedName": "any Atlantis.Serializable",
                 "usr": "s:8Atlantis12SerializableP"
               }
             ],
@@ -3946,7 +3946,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -3971,7 +3971,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -4198,12 +4198,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Atlantis.InjectorDelegate?",
+                "printedName": "(any Atlantis.InjectorDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "InjectorDelegate",
-                    "printedName": "Atlantis.InjectorDelegate",
+                    "printedName": "any Atlantis.InjectorDelegate",
                     "usr": "s:8Atlantis16InjectorDelegateP"
                   }
                 ],
@@ -4224,12 +4224,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Atlantis.InjectorDelegate?",
+                    "printedName": "(any Atlantis.InjectorDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "InjectorDelegate",
-                        "printedName": "Atlantis.InjectorDelegate",
+                        "printedName": "any Atlantis.InjectorDelegate",
                         "usr": "s:8Atlantis16InjectorDelegateP"
                       }
                     ],
@@ -4259,12 +4259,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Atlantis.InjectorDelegate?",
+                    "printedName": "(any Atlantis.InjectorDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "InjectorDelegate",
-                        "printedName": "Atlantis.InjectorDelegate",
+                        "printedName": "any Atlantis.InjectorDelegate",
                         "usr": "s:8Atlantis16InjectorDelegateP"
                       }
                     ],
@@ -4458,12 +4458,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -4691,7 +4691,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "WeakStorage",
-                "printedName": "Atlantis.InjectorDelegate?"
+                "printedName": "(any Atlantis.InjectorDelegate)?"
               }
             ],
             "declKind": "Var",
@@ -4717,12 +4717,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Atlantis.InjectorDelegate?",
+                    "printedName": "(any Atlantis.InjectorDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "InjectorDelegate",
-                        "printedName": "Atlantis.InjectorDelegate",
+                        "printedName": "any Atlantis.InjectorDelegate",
                         "usr": "s:8Atlantis16InjectorDelegateP"
                       }
                     ],
@@ -4753,12 +4753,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Atlantis.InjectorDelegate?",
+                    "printedName": "(any Atlantis.InjectorDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "InjectorDelegate",
-                        "printedName": "Atlantis.InjectorDelegate",
+                        "printedName": "any Atlantis.InjectorDelegate",
                         "usr": "s:8Atlantis16InjectorDelegateP"
                       }
                     ],
@@ -4860,7 +4860,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4893,7 +4893,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4927,7 +4927,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4961,7 +4961,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4995,7 +4995,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -5227,13 +5227,17 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Atlantis"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "Atlantis",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "Atlantis"
       },
       {
         "kind": "Import",
@@ -5468,7 +5472,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -5493,7 +5497,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -6585,7 +6589,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -6639,12 +6643,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Error?",
+                "printedName": "(any Swift.Error)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -6825,7 +6829,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -6850,7 +6854,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7133,7 +7137,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7158,7 +7162,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7426,7 +7430,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7451,7 +7455,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7632,7 +7636,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -7657,7 +7661,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8087,7 +8091,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8112,7 +8116,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8352,7 +8356,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8377,7 +8381,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -8521,7 +8525,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "Swift.Error",
+                "printedName": "any Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -8569,7 +8573,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8594,7 +8598,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9244,7 +9248,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -9269,7 +9273,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -9336,12 +9340,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[AnyObject.Type]",
+                "printedName": "[any AnyObject.Type]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "AnyObject.Type",
+                    "printedName": "any AnyObject.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -9383,7 +9387,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -10566,7 +10570,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Serializable",
-                "printedName": "Atlantis.Serializable",
+                "printedName": "any Atlantis.Serializable",
                 "usr": "s:8Atlantis12SerializableP"
               }
             ],
@@ -10972,12 +10976,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Atlantis.Serializable]",
+                "printedName": "[any Atlantis.Serializable]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Serializable",
-                    "printedName": "Atlantis.Serializable",
+                    "printedName": "any Atlantis.Serializable",
                     "usr": "s:8Atlantis12SerializableP"
                   }
                 ],
@@ -11181,7 +11185,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Serializable",
-                "printedName": "Atlantis.Serializable",
+                "printedName": "any Atlantis.Serializable",
                 "usr": "s:8Atlantis12SerializableP"
               }
             ],
@@ -13577,20 +13581,6 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 897,
-      "length": 96,
-      "value": "\"[Atlantis][Error] Could not build TrafficPackage from manual input. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 1611,
-      "length": 96,
-      "value": "\"[Atlantis][Error] Could not build TrafficPackage from manual input. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
       "kind": "Array",
       "offset": 4097,
       "length": 2,
@@ -13605,97 +13595,6 @@
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 4217,
-      "length": 6,
-      "value": "\"GRPC\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 4363,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 4381,
-      "length": 31,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 4394,
-      "length": 6,
-      "value": "\"true\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 4403,
-      "length": 7,
-      "value": "\"false\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 4411,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 4450,
-      "length": 12,
-      "value": "\"statusCode\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 4524,
-      "length": 35,
-      "value": "\"Unknown status Code \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 4558,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 4597,
-      "length": 15,
-      "value": "\"statusMessage\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 4638,
-      "length": 5,
-      "value": "\"nil\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4757,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4763,
-      "length": 3,
-      "value": "503"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
       "kind": "Array",
       "offset": 7117,
       "length": 2,
@@ -13707,111 +13606,6 @@
       "offset": 7186,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 7331,
-      "length": 6,
-      "value": "\"GRPC\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 7451,
-      "length": 6,
-      "value": "\"GRPC\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 7595,
-      "length": 6,
-      "value": "\"GRPC\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 7740,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 7758,
-      "length": 31,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 7771,
-      "length": 6,
-      "value": "\"true\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 7780,
-      "length": 7,
-      "value": "\"false\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 7788,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 7827,
-      "length": 12,
-      "value": "\"statusCode\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 7901,
-      "length": 35,
-      "value": "\"Unknown status Code \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 7935,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 7974,
-      "length": 15,
-      "value": "\"statusMessage\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "StringLiteral",
-      "offset": 8015,
-      "length": 5,
-      "value": "\"nil\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8134,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis+Manual.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8140,
-      "length": 3,
-      "value": "503"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
@@ -13874,7 +13668,7 @@
       "kind": "StringLiteral",
       "offset": 2633,
       "length": 8,
-      "value": "\"1.24.0\""
+      "value": "\"1.25.1\""
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
@@ -13882,174 +13676,6 @@
       "offset": 3472,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4003,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4557,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 5335,
-      "length": 83,
-      "value": "\"---------------------------------------------------------------------------------\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 5438,
-      "length": 72,
-      "value": "\"---------- 🧊 Atlantis is running (version \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 5508,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 5530,
-      "length": 60,
-      "value": "\"---------- Github: https:\/\/github.com\/ProxymanApp\/atlantis\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 5610,
-      "length": 83,
-      "value": "\"---------------------------------------------------------------------------------\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 5831,
-      "length": 45,
-      "value": "\"---------- Running on Swift Playground Mode\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 5896,
-      "length": 122,
-      "value": "\"If you get the SSL Error, please follow this code: https:\/\/gist.github.com\/NghiaTranUIT\/275c8da5068d506869a21bd16da27094\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "Array",
-      "offset": 6334,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 6428,
-      "length": 199,
-      "value": "\"<key>NSLocalNetworkUsageDescription<\/key>\n<string>Atlantis would use Bonjour Service to discover Proxyman app from your local network.<\/string>\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 6763,
-      "length": 169,
-      "value": "\"<key>NSBonjourServices<\/key>\n<array>\n    <string>_Proxyman._tcp<\/string>\n<\/array>\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 7058,
-      "length": 539,
-      "value": "\"---------------------------------------------------------------------------------\n--------- ⚠️ [Atlantis] MISSING REQUIRED CONFIG from Info.plist for iOS 14+ --------\n---------------------------------------------------------------------------------\nRead more at: https:\/\/docs.proxyman.io\/atlantis\/atlantis-for-ios\nPlease add the following config to your MainApp's Info.plist\n\n\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 7570,
-      "length": 4,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 7576,
-      "length": 9232,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 8248,
-      "length": 64,
-      "value": "\"[Atlantis] ❌ Error: Should build package from URLSessionTask\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 8452,
-      "length": 97,
-      "value": "\"[Atlantis] ❌ Error: Do not support new Type \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 8548,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 10599,
-      "length": 6,
-      "value": "\"ping\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 12954,
-      "length": 80,
-      "value": "\"[Atlantis][Error] Skipping sending WS Packages!! Please contact Proxyman Team.\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "Array",
-      "offset": 15331,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 16420,
-      "length": 32,
-      "value": "\"NSLocalNetworkUsageDescription\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "StringLiteral",
-      "offset": 16584,
-      "length": 19,
-      "value": "\"NSBonjourServices\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16644,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/AtlantisHelper.swift",
@@ -14066,48 +13692,6 @@
       "value": "\"string\""
     },
     {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/AtlantisHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2133,
-      "length": 30,
-      "value": "\"NSURLSessionWebSocketMessage\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/AtlantisHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 2947,
-      "length": 94,
-      "value": "\"[Atlantis] ❌ Error: Have NSURLSessionWebSocketMessage but can neither get data nor string.\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Configuration.swift",
-      "kind": "StringLiteral",
-      "offset": 807,
-      "length": 61,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Configuration.swift",
-      "kind": "StringLiteral",
-      "offset": 843,
-      "length": 1,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Configuration.swift",
-      "kind": "StringLiteral",
-      "offset": 867,
-      "length": 43,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "Array",
-      "offset": 4196,
-      "length": 12,
-      "value": "[0x78, 0x5e]"
-    },
-    {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
       "kind": "BooleanLiteral",
       "offset": 5013,
@@ -14117,359 +13701,9 @@
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
       "kind": "IntegerLiteral",
-      "offset": 5108,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5387,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5391,
-      "length": 6,
-      "value": "0b1111"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5401,
-      "length": 6,
-      "value": "0b1000"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5488,
-      "length": 2,
-      "value": "31"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5494,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5654,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6122,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6194,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "Array",
-      "offset": 6723,
-      "length": 24,
-      "value": "[0x1f, 0x8b, 0x08, 0x00]"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "Array",
-      "offset": 6988,
-      "length": 12,
-      "value": "[0x00, 0x03]"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8198,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8203,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8670,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8683,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8695,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8708,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8721,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8733,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9104,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9152,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9192,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9213,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9350,
-      "length": 4,
-      "value": "0x1f"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9369,
-      "length": 4,
-      "value": "0x8b"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9387,
-      "length": 4,
-      "value": "0x08"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9461,
-      "length": 7,
-      "value": "0b00010"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9472,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9514,
-      "length": 7,
-      "value": "0b00100"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9525,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9567,
-      "length": 7,
-      "value": "0b01000"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9578,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9620,
-      "length": 7,
-      "value": "0b10000"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9631,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9751,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9776,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9908,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9971,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10096,
-      "length": 3,
-      "value": "0x0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10109,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10136,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10254,
-      "length": 3,
-      "value": "0x0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10267,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10294,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10386,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
       "offset": 12042,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "StringLiteral",
-      "offset": 12674,
-      "length": 6,
-      "value": "\"%08x\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "StringLiteral",
-      "offset": 12965,
-      "length": 21,
-      "value": "\"\/usr\/lib\/libz.dylib\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "StringLiteral",
-      "offset": 13055,
-      "length": 7,
-      "value": "\"crc32\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13557,
-      "length": 4,
-      "value": "0xff"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13620,
-      "length": 1,
-      "value": "8"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
@@ -14487,181 +13721,6 @@
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "StringLiteral",
-      "offset": 18345,
-      "length": 6,
-      "value": "\"%08x\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "StringLiteral",
-      "offset": 18644,
-      "length": 21,
-      "value": "\"\/usr\/lib\/libz.dylib\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "StringLiteral",
-      "offset": 18734,
-      "length": 9,
-      "value": "\"adler32\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19148,
-      "length": 6,
-      "value": "0xffff"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19190,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19196,
-      "length": 6,
-      "value": "0xffff"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19231,
-      "length": 5,
-      "value": "65521"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19451,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20504,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20612,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21009,
-      "length": 2,
-      "value": "64"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21014,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21062,
-      "length": 2,
-      "value": "64"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21488,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "BooleanLiteral",
-      "offset": 21761,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21909,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22115,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22139,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "StringLiteral",
-      "offset": 24613,
-      "length": 20,
-      "value": "\"Unknown gzip error\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "Array",
-      "offset": 25368,
-      "length": 12,
-      "value": "[0x1f, 0x8b]"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25962,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27507,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28163,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28632,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28748,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
       "kind": "IntegerLiteral",
       "offset": 30414,
       "length": 1,
@@ -14675,363 +13734,6 @@
       "value": "14"
     },
     {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DispatchQueue+Once.swift",
-      "kind": "StringLiteral",
-      "offset": 376,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DispatchQueue+Once.swift",
-      "kind": "StringLiteral",
-      "offset": 393,
-      "length": 3,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 211,
-      "length": 138,
-      "value": "\"❌ [Atlantis] Could not swizzle this func: \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 263,
-      "length": 1,
-      "value": "\"! It looks like the latest iOS (beta) has changed, please contact support@proxyman.io\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 511,
-      "length": 8,
-      "value": "\"resume\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 681,
-      "length": 34,
-      "value": "\"_swizzleURLSessionResumeSelector\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 1534,
-      "length": 133,
-      "value": "\"Could not get data from _swizzleURLSessionResumeSelector. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 2854,
-      "length": 36,
-      "value": "\"_didReceiveResponse:sniff:rewrite:\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 3052,
-      "length": 57,
-      "value": "\"_swizzleURLSessionDataTaskDidReceiveResponseWithRewrite\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 3827,
-      "length": 6,
-      "value": "\"task\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 4085,
-      "length": 161,
-      "value": "\"Could not get data from _swizzleURLSessionDataTaskDidReceiveResponseForIOS13AndLater. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 4519,
-      "length": 28,
-      "value": "\"_didReceiveResponse:sniff:\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 4709,
-      "length": 60,
-      "value": "\"_swizzleURLSessionDataTaskDidReceiveResponseWithoutRewrite\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 5328,
-      "length": 6,
-      "value": "\"task\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 5569,
-      "length": 158,
-      "value": "\"Could not get data from _swizzleURLSessionDataTaskDidReceiveResponseForBelowIOS13. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 6121,
-      "length": 18,
-      "value": "\"_didReceiveData:\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 6301,
-      "length": 42,
-      "value": "\"_swizzleURLSessionDataTaskDidReceiveData\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 6868,
-      "length": 6,
-      "value": "\"task\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 7082,
-      "length": 141,
-      "value": "\"Could not get data from _swizzleURLSessionDataTaskDidReceiveData. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 7624,
-      "length": 22,
-      "value": "\"_didFinishWithError:\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 7808,
-      "length": 44,
-      "value": "\"_swizzleURLSessionTaskDidCompleteWithError\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 8381,
-      "length": 6,
-      "value": "\"task\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 8593,
-      "length": 143,
-      "value": "\"Could not get data from _swizzleURLSessionTaskDidCompleteWithError. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 9393,
-      "length": 33,
-      "value": "\"uploadTaskWithRequest:fromFile:\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 9588,
-      "length": 42,
-      "value": "\"_swizzleURLSessionUploadFromFileSelector\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 10674,
-      "length": 133,
-      "value": "\"Could not get data from _swizzleURLSessionUploadSelector. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 11107,
-      "length": 51,
-      "value": "\"uploadTaskWithRequest:fromFile:completionHandler:\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 11320,
-      "length": 61,
-      "value": "\"_swizzleURLSessionUploadFromFileWithCompleteHandlerSelector\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 12462,
-      "length": 133,
-      "value": "\"Could not get data from _swizzleURLSessionUploadSelector. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 12877,
-      "length": 33,
-      "value": "\"uploadTaskWithRequest:fromData:\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 13072,
-      "length": 42,
-      "value": "\"_swizzleURLSessionUploadFromDataSelector\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 14087,
-      "length": 133,
-      "value": "\"Could not get data from _swizzleURLSessionUploadSelector. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 14521,
-      "length": 51,
-      "value": "\"uploadTaskWithRequest:fromData:completionHandler:\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 14734,
-      "length": 61,
-      "value": "\"_swizzleURLSessionUploadFromDataWithCompleteHandlerSelector\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 15774,
-      "length": 133,
-      "value": "\"Could not get data from _swizzleURLSessionUploadSelector. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 16198,
-      "length": 29,
-      "value": "\"__NSURLSessionWebSocketTask\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 16254,
-      "length": 66,
-      "value": "\"[Atlantis][ERROR] Could not inject __NSURLSessionWebSocketTask!!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 16825,
-      "length": 32,
-      "value": "\"sendMessage:completionHandler:\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 17019,
-      "length": 48,
-      "value": "\"_swizzleURLSessionWebSocketSendMessageSelector\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 18192,
-      "length": 147,
-      "value": "\"Could not get data from _swizzleURLSessionWebSocketSendMessageSelector. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 18606,
-      "length": 38,
-      "value": "\"receiveMessageWithCompletionHandler:\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 18806,
-      "length": 51,
-      "value": "\"_swizzleURLSessionWebSocketReceiveMessageSelector\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 19825,
-      "length": 150,
-      "value": "\"Could not get data from _swizzleURLSessionWebSocketReceiveMessageSelector. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 20463,
-      "length": 33,
-      "value": "\"sendPingWithPongReceiveHandler:\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 20658,
-      "length": 49,
-      "value": "\"_swizzleURLSessionWebSocketSendPingPongSelector\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 21512,
-      "length": 148,
-      "value": "\"Could not get data from _swizzleURLSessionWebSocketSendPingPongSelector. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 21938,
-      "length": 29,
-      "value": "\"cancelWithCloseCode:reason:\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 22129,
-      "length": 62,
-      "value": "\"_swizzleURLSessionWebSocketCancelWithCloseCodeReasonSelector\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 23249,
-      "length": 161,
-      "value": "\"Could not get data from _swizzleURLSessionWebSocketCancelWithCloseCodeReasonSelector. It might causes due to the latest iOS changes. Please contact the author!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 23663,
-      "length": 8,
-      "value": "\"string\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
-      "kind": "StringLiteral",
-      "offset": 23809,
-      "length": 6,
-      "value": "\"data\""
-    },
-    {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector.swift",
       "kind": "BooleanLiteral",
       "offset": 385,
@@ -15039,317 +13741,9 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector.swift",
-      "kind": "StringLiteral",
-      "offset": 2222,
-      "length": 33,
-      "value": "\"__NSCFURLLocalSessionConnection\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector.swift",
-      "kind": "StringLiteral",
-      "offset": 2278,
-      "length": 28,
-      "value": "\"__NSCFURLSessionConnection\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector.swift",
-      "kind": "StringLiteral",
-      "offset": 3484,
-      "length": 24,
-      "value": "\"__NSCFLocalSessionTask\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3776,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3797,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector.swift",
-      "kind": "StringLiteral",
-      "offset": 3929,
-      "length": 22,
-      "value": "\"__NSCFURLSessionTask\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector.swift",
-      "kind": "StringLiteral",
-      "offset": 4081,
-      "length": 102,
-      "value": "\"Could not find URLSessionTask. Please open support ticket at https:\/\/github.com\/ProxymanApp\/atlantis\""
-    },
-    {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/PackageIdentifier.swift",
       "kind": "IntegerLiteral",
       "offset": 227,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1885,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1915,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2094,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2124,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 3039,
-      "length": 29,
-      "value": "\"__NSURLSessionWebSocketTask\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 5886,
-      "length": 19,
-      "value": "\"<Skip Large Body>\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 6266,
-      "length": 101,
-      "value": "\"Package: id=\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 6284,
-      "length": 1,
-      "value": "\", request=\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 6324,
-      "length": 1,
-      "value": "\", response=\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 6366,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 6983,
-      "length": 63,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 6998,
-      "length": 1,
-      "value": "\" (\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 7020,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 7044,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 7287,
-      "length": 10,
-      "value": "\"Untitled\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 7357,
-      "length": 22,
-      "value": "\"No bundle identifier\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 8144,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 8190,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "Array",
-      "offset": 8293,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 9053,
-      "length": 13,
-      "value": "\"Unknown Key\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 9098,
-      "length": 15,
-      "value": "\"Unknown Value\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9160,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 9199,
-      "length": 16,
-      "value": "\"Content-Length\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 9224,
-      "length": 35,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 9258,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 9297,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 9341,
-      "length": 12,
-      "value": "\"plain\/text\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 11161,
-      "length": 14,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 11174,
-      "length": 46,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 12239,
-      "length": 15,
-      "value": "\"CFBundleIcons\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 12334,
-      "length": 21,
-      "value": "\"CFBundlePrimaryIcon\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Packages.swift",
-      "kind": "StringLiteral",
-      "offset": 12429,
-      "length": 19,
-      "value": "\"CFBundleIconFiles\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 274,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 627,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "Array",
-      "offset": 944,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 981,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1070,
       "length": 1,
       "value": "0"
     },
@@ -15366,27 +13760,6 @@
       "offset": 1917,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "StringLiteral",
-      "offset": 2034,
-      "length": 32,
-      "value": "\"_atlantis_URLSessionStreamTask\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2275,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2305,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
@@ -15513,27 +13886,6 @@
       "offset": 2927,
       "length": 2,
       "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "StringLiteral",
-      "offset": 2976,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "StringLiteral",
-      "offset": 2984,
-      "length": 1,
-      "value": "\" (code=\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "StringLiteral",
-      "offset": 3002,
-      "length": 1,
-      "value": "\")\""
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
@@ -15835,251 +14187,6 @@
       "offset": 1721,
       "length": 2,
       "value": "30"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1867,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "Array",
-      "offset": 1899,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2013,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 2431,
-      "length": 67,
-      "value": "\"[Atlantis] Try Connecting to Proxyman with HostName = \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 2497,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 2535,
-      "length": 55,
-      "value": "\"[Atlantis] Looking for Proxyman app in the network...\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 4346,
-      "length": 56,
-      "value": "\"⚠️ The connection is not ready. It might be a bug!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4914,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 5019,
-      "length": 56,
-      "value": "\"[Atlantis][Error] Error sending frame header: \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 5074,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 5279,
-      "length": 57,
-      "value": "\"[Atlantis][Error] Error sending frame content: \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 5335,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 5839,
-      "length": 49,
-      "value": "\"[Atlantis] Flush \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 5881,
-      "length": 5,
-      "value": "\" items\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 6215,
-      "length": 58,
-      "value": "\"[Atlantis] 🔎 Found Proxyman at HostName = \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 6272,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 6728,
-      "length": 58,
-      "value": "\"[Atlantis] ⏭️ Avoid connecting to \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 6785,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 6907,
-      "length": 68,
-      "value": "\"[Atlantis][ERROR] Could not receive the host name from NetService!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7535,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 7607,
-      "length": 83,
-      "value": "\"[Atlantis] ⚠️ Avoid connecting to \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 7657,
-      "length": 7,
-      "value": "\" because it's already connected!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 7888,
-      "length": 39,
-      "value": "\"[Atlantis] ✅ Connect to \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 7926,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 9154,
-      "length": 35,
-      "value": "\"[Atlantis] Connection established\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 9479,
-      "length": 70,
-      "value": "\"[Atlantis] Connection to server waiting to establish, error=\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 9548,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 9610,
-      "length": 69,
-      "value": "\"[Atlantis] ❌ Connection to Proxyman app is failed, error=\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 9678,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 9866,
-      "length": 53,
-      "value": "\"[Atlantis] Connection to Proxyman app is cancelled!\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11153,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 12277,
-      "length": 46,
-      "value": "\"[Atlantis][ERROR] didNotPublish \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 12322,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 12436,
-      "length": 46,
-      "value": "\"[Atlantis][ERROR] didNotResolve \""
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "StringLiteral",
-      "offset": 12481,
-      "length": 2,
-      "value": "\"\""
     }
   ]
 }
