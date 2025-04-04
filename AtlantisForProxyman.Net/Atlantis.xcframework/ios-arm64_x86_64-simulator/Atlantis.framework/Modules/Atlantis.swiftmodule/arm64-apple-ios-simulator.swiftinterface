@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Atlantis
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation/*.AVAggregateAssetDownloadTask*/
 import Compression
 import Foundation
@@ -39,6 +40,7 @@ public protocol AtlantisDelegate : AnyObject {
   final public class func setEnableTransportLayer(_ isEnabled: Swift.Bool)
   final public class func setIsRunningOniOSPlayground(_ isEnabled: Swift.Bool)
   final public class func setDelegate(_ delegate: any Atlantis.AtlantisDelegate)
+  final public class func setIgnoreProtocols(_ protocols: [Swift.AnyClass])
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class TrafficPackage : Swift.Codable, Swift.CustomDebugStringConvertible {

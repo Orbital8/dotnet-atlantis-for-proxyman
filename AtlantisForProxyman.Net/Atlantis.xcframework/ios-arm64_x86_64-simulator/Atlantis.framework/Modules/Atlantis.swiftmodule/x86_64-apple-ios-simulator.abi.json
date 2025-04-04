@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "Atlantis",
+    "printedName": "Atlantis",
     "children": [
       {
         "kind": "Import",
@@ -72,6 +72,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -378,6 +394,49 @@
             "declKind": "Func",
             "usr": "s:8AtlantisAAC11setDelegateyyAA0aC0_pFZ",
             "mangledName": "$s8AtlantisAAC11setDelegateyyAA0aC0_pFZ",
+            "moduleName": "Atlantis",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIgnoreProtocols",
+            "printedName": "setIgnoreProtocols(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any AnyObject.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AtlantisAAC18setIgnoreProtocolsyySayyXlXpGFZ",
+            "mangledName": "$s8AtlantisAAC18setIgnoreProtocolsyySayyXlXpGFZ",
             "moduleName": "Atlantis",
             "static": true,
             "declAttributes": [
@@ -1027,6 +1086,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -1436,10 +1509,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "InjectorDelegate",
-            "printedName": "InjectorDelegate",
-            "usr": "s:8Atlantis16InjectorDelegateP",
-            "mangledName": "$s8Atlantis16InjectorDelegateP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1489,6 +1569,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "InjectorDelegate",
+            "printedName": "InjectorDelegate",
+            "usr": "s:8Atlantis16InjectorDelegateP",
+            "mangledName": "$s8Atlantis16InjectorDelegateP"
           }
         ]
       },
@@ -1752,6 +1839,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2064,6 +2165,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -2327,6 +2442,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -2538,6 +2667,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -2549,6 +2692,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -2860,6 +3010,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "RawRepresentable",
             "printedName": "RawRepresentable",
             "children": [
@@ -2886,6 +3050,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -3209,6 +3380,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -3220,6 +3405,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -3414,6 +3606,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -3662,6 +3868,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -3716,6 +3936,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -4018,6 +4245,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -4178,10 +4419,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -4336,7 +4598,23 @@
         "declKind": "Protocol",
         "usr": "s:8Atlantis8InjectorP",
         "mangledName": "$s8Atlantis8InjectorP",
-        "moduleName": "Atlantis"
+        "moduleName": "Atlantis",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -4676,7 +4954,23 @@
         "mangledName": "$s8Atlantis16InjectorDelegateP",
         "moduleName": "Atlantis",
         "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>"
+        "sugared_genericSig": "<Self : AnyObject>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -5047,6 +5341,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Injector",
             "printedName": "Injector",
             "usr": "s:8Atlantis8InjectorP",
@@ -5218,10 +5526,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -5517,6 +5846,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -5711,6 +6054,20 @@
             ],
             "enumRawTypeName": "String",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -6882,6 +7239,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7182,6 +7553,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7475,6 +7860,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7682,6 +8081,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -8144,6 +8557,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8404,6 +8831,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8619,6 +9060,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -8877,6 +9332,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -9126,6 +9595,22 @@
             "moduleName": "Atlantis",
             "declAttributes": [
               "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
             ]
           },
           {
@@ -9296,6 +9781,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -9431,10 +9930,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -9621,6 +10141,22 @@
         "declAttributes": [
           "Final",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -10437,6 +10973,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10477,6 +11027,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -10588,7 +11145,23 @@
         "declKind": "Protocol",
         "usr": "s:8Atlantis11TransporterP",
         "mangledName": "$s8Atlantis11TransporterP",
-        "moduleName": "Atlantis"
+        "moduleName": "Atlantis",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -10658,7 +11231,23 @@
         "declKind": "Protocol",
         "usr": "s:8Atlantis12SerializableP",
         "mangledName": "$s8Atlantis12SerializableP",
-        "moduleName": "Atlantis"
+        "moduleName": "Atlantis",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -10795,10 +11384,31 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Sendable",
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -11532,10 +12142,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Transporter",
-            "printedName": "Transporter",
-            "usr": "s:8Atlantis11TransporterP",
-            "mangledName": "$s8Atlantis11TransporterP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -11585,6 +12202,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transporter",
+            "printedName": "Transporter",
+            "usr": "s:8Atlantis11TransporterP",
+            "mangledName": "$s8Atlantis11TransporterP"
           }
         ]
       },
@@ -11701,6 +12325,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -12096,6 +12734,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -12114,6 +12766,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -12853,6 +13512,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -13079,6 +13752,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13287,6 +13974,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -13526,6 +14227,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13623,59 +14338,115 @@
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
+      "kind": "Array",
+      "offset": 955,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
       "kind": "StringLiteral",
-      "offset": 954,
+      "offset": 1003,
       "length": 23,
       "value": "\"com.proxyman.atlantis\""
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
+      "kind": "Array",
+      "offset": 1077,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
       "kind": "BooleanLiteral",
-      "offset": 1302,
+      "offset": 1403,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
       "kind": "BooleanLiteral",
-      "offset": 1594,
+      "offset": 1695,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
       "kind": "BooleanLiteral",
-      "offset": 1771,
+      "offset": 1872,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
       "kind": "BooleanLiteral",
-      "offset": 1980,
+      "offset": 2081,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
       "kind": "BooleanLiteral",
-      "offset": 2155,
+      "offset": 2256,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
       "kind": "StringLiteral",
-      "offset": 2633,
+      "offset": 2734,
       "length": 8,
-      "value": "\"1.25.1\""
+      "value": "\"1.27.0\""
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
       "kind": "BooleanLiteral",
-      "offset": 3472,
+      "offset": 3573,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
+      "kind": "StringLiteral",
+      "offset": 8288,
+      "length": 21,
+      "value": "\"canInitWithRequest:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
+      "kind": "StringLiteral",
+      "offset": 8477,
+      "length": 60,
+      "value": "\"[Atlantis] ❓ Warn: canInitWithRequest: method not found.\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8562,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9048,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9092,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9184,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/AtlantisHelper.swift",
@@ -13692,11 +14463,263 @@
       "value": "\"string\""
     },
     {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/AtlantisHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2133,
+      "length": 30,
+      "value": "\"NSURLSessionWebSocketMessage\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/AtlantisHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 2947,
+      "length": 94,
+      "value": "\"[Atlantis] ❌ Error: Have NSURLSessionWebSocketMessage but can neither get data nor string.\""
+    },
+    {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
       "kind": "BooleanLiteral",
       "offset": 5013,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8198,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8203,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8670,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8683,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8695,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8708,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8721,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8733,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9104,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9152,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9192,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9213,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9350,
+      "length": 4,
+      "value": "0x1f"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9369,
+      "length": 4,
+      "value": "0x8b"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9387,
+      "length": 4,
+      "value": "0x08"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9461,
+      "length": 7,
+      "value": "0b00010"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9472,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9514,
+      "length": 7,
+      "value": "0b00100"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9525,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9567,
+      "length": 7,
+      "value": "0b01000"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9578,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9620,
+      "length": 7,
+      "value": "0b10000"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9631,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9751,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9776,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9908,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9971,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10096,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10109,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10136,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10254,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10267,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10294,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10386,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/DataCompression.swift",
@@ -13732,6 +14755,307 @@
       "offset": 30418,
       "length": 2,
       "value": "14"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 8,
+      "value": "\"resume\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 681,
+      "length": 34,
+      "value": "\"_swizzleURLSessionResumeSelector\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 1534,
+      "length": 133,
+      "value": "\"Could not get data from _swizzleURLSessionResumeSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 2854,
+      "length": 36,
+      "value": "\"_didReceiveResponse:sniff:rewrite:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 3052,
+      "length": 57,
+      "value": "\"_swizzleURLSessionDataTaskDidReceiveResponseWithRewrite\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 3827,
+      "length": 6,
+      "value": "\"task\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 4085,
+      "length": 161,
+      "value": "\"Could not get data from _swizzleURLSessionDataTaskDidReceiveResponseForIOS13AndLater. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 4519,
+      "length": 28,
+      "value": "\"_didReceiveResponse:sniff:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 4709,
+      "length": 60,
+      "value": "\"_swizzleURLSessionDataTaskDidReceiveResponseWithoutRewrite\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 5328,
+      "length": 6,
+      "value": "\"task\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 5569,
+      "length": 158,
+      "value": "\"Could not get data from _swizzleURLSessionDataTaskDidReceiveResponseForBelowIOS13. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 6121,
+      "length": 18,
+      "value": "\"_didReceiveData:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 6301,
+      "length": 42,
+      "value": "\"_swizzleURLSessionDataTaskDidReceiveData\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 6868,
+      "length": 6,
+      "value": "\"task\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 7082,
+      "length": 141,
+      "value": "\"Could not get data from _swizzleURLSessionDataTaskDidReceiveData. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 7624,
+      "length": 22,
+      "value": "\"_didFinishWithError:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 7808,
+      "length": 44,
+      "value": "\"_swizzleURLSessionTaskDidCompleteWithError\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 8381,
+      "length": 6,
+      "value": "\"task\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 8593,
+      "length": 143,
+      "value": "\"Could not get data from _swizzleURLSessionTaskDidCompleteWithError. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 9393,
+      "length": 33,
+      "value": "\"uploadTaskWithRequest:fromFile:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 9588,
+      "length": 42,
+      "value": "\"_swizzleURLSessionUploadFromFileSelector\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 10674,
+      "length": 133,
+      "value": "\"Could not get data from _swizzleURLSessionUploadSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 11107,
+      "length": 51,
+      "value": "\"uploadTaskWithRequest:fromFile:completionHandler:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 11320,
+      "length": 61,
+      "value": "\"_swizzleURLSessionUploadFromFileWithCompleteHandlerSelector\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 12462,
+      "length": 133,
+      "value": "\"Could not get data from _swizzleURLSessionUploadSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 12877,
+      "length": 33,
+      "value": "\"uploadTaskWithRequest:fromData:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 13072,
+      "length": 42,
+      "value": "\"_swizzleURLSessionUploadFromDataSelector\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 14087,
+      "length": 133,
+      "value": "\"Could not get data from _swizzleURLSessionUploadSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 14521,
+      "length": 51,
+      "value": "\"uploadTaskWithRequest:fromData:completionHandler:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 14734,
+      "length": 61,
+      "value": "\"_swizzleURLSessionUploadFromDataWithCompleteHandlerSelector\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 15774,
+      "length": 133,
+      "value": "\"Could not get data from _swizzleURLSessionUploadSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 16825,
+      "length": 32,
+      "value": "\"sendMessage:completionHandler:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 17019,
+      "length": 48,
+      "value": "\"_swizzleURLSessionWebSocketSendMessageSelector\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 18192,
+      "length": 147,
+      "value": "\"Could not get data from _swizzleURLSessionWebSocketSendMessageSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 18606,
+      "length": 38,
+      "value": "\"receiveMessageWithCompletionHandler:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 18806,
+      "length": 51,
+      "value": "\"_swizzleURLSessionWebSocketReceiveMessageSelector\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 19825,
+      "length": 150,
+      "value": "\"Could not get data from _swizzleURLSessionWebSocketReceiveMessageSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 20463,
+      "length": 33,
+      "value": "\"sendPingWithPongReceiveHandler:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 20658,
+      "length": 49,
+      "value": "\"_swizzleURLSessionWebSocketSendPingPongSelector\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 21512,
+      "length": 148,
+      "value": "\"Could not get data from _swizzleURLSessionWebSocketSendPingPongSelector. It might causes due to the latest iOS changes. Please contact the author!\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 21938,
+      "length": 29,
+      "value": "\"cancelWithCloseCode:reason:\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 22129,
+      "length": 62,
+      "value": "\"_swizzleURLSessionWebSocketCancelWithCloseCodeReasonSelector\""
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector+URLSession.swift",
+      "kind": "StringLiteral",
+      "offset": 23249,
+      "length": 161,
+      "value": "\"Could not get data from _swizzleURLSessionWebSocketCancelWithCloseCodeReasonSelector. It might causes due to the latest iOS changes. Please contact the author!\""
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/NetworkInjector.swift",
@@ -13885,258 +15209,6 @@
       "kind": "IntegerLiteral",
       "offset": 2927,
       "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2478,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2501,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2522,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2551,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2581,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2603,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2630,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2660,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2689,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2721,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2753,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2774,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2799,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2827,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2855,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2881,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2904,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2927,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2478,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2501,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2522,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2551,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2581,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2603,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2630,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2660,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2689,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2721,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2753,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2774,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2799,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2827,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2855,
-      "length": 2,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2881,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2904,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Runtime.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2927,
-      "length": 1,
       "value": "-1"
     },
     {
