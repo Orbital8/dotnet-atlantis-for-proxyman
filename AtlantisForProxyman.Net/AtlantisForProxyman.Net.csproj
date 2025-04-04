@@ -5,7 +5,7 @@
         <ImplicitUsings>true</ImplicitUsings>
         <IsBindingProject>true</IsBindingProject>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>0.0.3</Version>
+        <Version>1.27.0</Version>
         <Title>Atlantis For Proxyman</Title>
         <Authors>Orbital8</Authors>
         <Company>Orbital8 Pty Ltd</Company>
