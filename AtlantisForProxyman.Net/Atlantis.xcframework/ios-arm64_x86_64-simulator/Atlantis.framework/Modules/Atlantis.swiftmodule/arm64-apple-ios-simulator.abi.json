@@ -11358,6 +11358,55 @@
                 ]
               },
               {
+                "kind": "Var",
+                "name": "directConnectionPort",
+                "printedName": "directConnectionPort",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Port",
+                    "printedName": "Network.NWEndpoint.Port",
+                    "usr": "s:7Network10NWEndpointO4PortV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8Atlantis19NetServiceTransportC9ConstantsV20directConnectionPort7Network10NWEndpointO0H0VvpZ",
+                "mangledName": "$s8Atlantis19NetServiceTransportC9ConstantsV20directConnectionPort7Network10NWEndpointO0H0VvpZ",
+                "moduleName": "Atlantis",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Port",
+                        "printedName": "Network.NWEndpoint.Port",
+                        "usr": "s:7Network10NWEndpointO4PortV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8Atlantis19NetServiceTransportC9ConstantsV20directConnectionPort7Network10NWEndpointO0H0VvgZ",
+                    "mangledName": "$s8Atlantis19NetServiceTransportC9ConstantsV20directConnectionPort7Network10NWEndpointO0H0VvgZ",
+                    "moduleName": "Atlantis",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init()",
@@ -11465,63 +11514,37 @@
           },
           {
             "kind": "Var",
-            "name": "serviceBrowser",
-            "printedName": "serviceBrowser",
+            "name": "browser",
+            "printedName": "browser",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "NetServiceBrowser",
-                "printedName": "Foundation.NetServiceBrowser",
-                "usr": "c:objc(cs)NSNetServiceBrowser"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8Atlantis19NetServiceTransportC14serviceBrowser021_E248BC9B9B829230A865I10A122228923LLSo05NSNetcF0Cvp",
-            "mangledName": "$s8Atlantis19NetServiceTransportC14serviceBrowser021_E248BC9B9B829230A865I10A122228923LLSo05NSNetcF0Cvp",
-            "moduleName": "Atlantis",
-            "isInternal": true,
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "services",
-            "printedName": "services",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Foundation.NetService]",
+                "name": "Optional",
+                "printedName": "Network.NWBrowser?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "NetService",
-                    "printedName": "Foundation.NetService",
-                    "usr": "c:objc(cs)NSNetService"
+                    "name": "NWBrowser",
+                    "printedName": "Network.NWBrowser",
+                    "usr": "s:7Network9NWBrowserC"
                   }
                 ],
-                "usr": "s:Sa"
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8Atlantis19NetServiceTransportC8services021_E248BC9B9B829230A865H10A122228923LLSaySo05NSNetC0CGvp",
-            "mangledName": "$s8Atlantis19NetServiceTransportC8services021_E248BC9B9B829230A865H10A122228923LLSaySo05NSNetC0CGvp",
+            "usr": "s:8Atlantis19NetServiceTransportC7browser021_E248BC9B9B829230A865H10A122228923LL7Network9NWBrowserCSgvp",
+            "mangledName": "$s8Atlantis19NetServiceTransportC7browser021_E248BC9B9B829230A865H10A122228923LL7Network9NWBrowserCSgvp",
             "moduleName": "Atlantis",
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
-            "fixedbinaryorder": 1,
+            "fixedbinaryorder": 0,
             "hasStorage": true
           },
           {
@@ -11547,34 +11570,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 2,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "session",
-            "printedName": "session",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URLSession",
-                "printedName": "Foundation.URLSession",
-                "usr": "c:objc(cs)NSURLSession"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8Atlantis19NetServiceTransportC7session021_E248BC9B9B829230A865H10A122228923LLSo12NSURLSessionCvp",
-            "mangledName": "$s8Atlantis19NetServiceTransportC7session021_E248BC9B9B829230A865H10A122228923LLSo12NSURLSessionCvp",
-            "moduleName": "Atlantis",
-            "isInternal": true,
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 1,
             "isLet": true,
             "hasStorage": true
           },
@@ -11607,9 +11603,10 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 2,
             "hasStorage": true
           },
           {
@@ -11643,7 +11640,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 3,
             "hasStorage": true
           },
           {
@@ -11672,12 +11669,13 @@
             "moduleName": "Atlantis",
             "isInternal": true,
             "declAttributes": [
+              "HasInitialValue",
               "Final",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 4,
             "hasStorage": true
           },
           {
@@ -11703,6 +11701,60 @@
               "HasStorage",
               "AccessControl",
               "RawDocComment"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "simulatorRetryCount",
+            "printedName": "simulatorRetryCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Atlantis19NetServiceTransportC19simulatorRetryCount021_E248BC9B9B829230A865J10A122228923LLSivp",
+            "mangledName": "$s8Atlantis19NetServiceTransportC19simulatorRetryCount021_E248BC9B9B829230A865J10A122228923LLSivp",
+            "moduleName": "Atlantis",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 6,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "maxSimulatorRetries",
+            "printedName": "maxSimulatorRetries",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Atlantis19NetServiceTransportC19maxSimulatorRetries021_E248BC9B9B829230A865J10A122228923LLSivp",
+            "mangledName": "$s8Atlantis19NetServiceTransportC19maxSimulatorRetries021_E248BC9B9B829230A865J10A122228923LLSivp",
+            "moduleName": "Atlantis",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
             ],
             "fixedbinaryorder": 7,
             "isLet": true,
@@ -11805,322 +11857,6 @@
             "moduleName": "Atlantis",
             "declAttributes": [
               "Final"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "netServiceBrowser",
-            "printedName": "netServiceBrowser(_:didFind:moreComing:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetServiceBrowser",
-                "printedName": "Foundation.NetServiceBrowser",
-                "usr": "c:objc(cs)NSNetServiceBrowser"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetService",
-                "printedName": "Foundation.NetService",
-                "usr": "c:objc(cs)NSNetService"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Atlantis@objc(cs)NetServiceTransport(im)netServiceBrowser:didFindService:moreComing:",
-            "mangledName": "$s8Atlantis19NetServiceTransportC03netC7Browser_7didFind10moreComingySo05NSNetcF0C_So0kC0CSbtF",
-            "moduleName": "Atlantis",
-            "objc_name": "netServiceBrowser:didFindService:moreComing:",
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "netServiceBrowser",
-            "printedName": "netServiceBrowser(_:didRemove:moreComing:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetServiceBrowser",
-                "printedName": "Foundation.NetServiceBrowser",
-                "usr": "c:objc(cs)NSNetServiceBrowser"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetService",
-                "printedName": "Foundation.NetService",
-                "usr": "c:objc(cs)NSNetService"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Atlantis@objc(cs)NetServiceTransport(im)netServiceBrowser:didRemoveService:moreComing:",
-            "mangledName": "$s8Atlantis19NetServiceTransportC03netC7Browser_9didRemove10moreComingySo05NSNetcF0C_So0kC0CSbtF",
-            "moduleName": "Atlantis",
-            "objc_name": "netServiceBrowser:didRemoveService:moreComing:",
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "netServiceBrowser",
-            "printedName": "netServiceBrowser(_:didNotSearch:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetServiceBrowser",
-                "printedName": "Foundation.NetServiceBrowser",
-                "usr": "c:objc(cs)NSNetServiceBrowser"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Foundation.NSNumber]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSNumber",
-                    "printedName": "Foundation.NSNumber",
-                    "usr": "c:objc(cs)NSNumber"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Atlantis@objc(cs)NetServiceTransport(im)netServiceBrowser:didNotSearch:",
-            "mangledName": "$s8Atlantis19NetServiceTransportC03netC7Browser_12didNotSearchySo05NSNetcF0C_SDySSSo8NSNumberCGtF",
-            "moduleName": "Atlantis",
-            "objc_name": "netServiceBrowser:didNotSearch:",
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "netServiceBrowserWillSearch",
-            "printedName": "netServiceBrowserWillSearch(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetServiceBrowser",
-                "printedName": "Foundation.NetServiceBrowser",
-                "usr": "c:objc(cs)NSNetServiceBrowser"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Atlantis@objc(cs)NetServiceTransport(im)netServiceBrowserWillSearch:",
-            "mangledName": "$s8Atlantis19NetServiceTransportC03netC17BrowserWillSearchyySo05NSNetcF0CF",
-            "moduleName": "Atlantis",
-            "objc_name": "netServiceBrowserWillSearch:",
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "netServiceBrowserDidStopSearch",
-            "printedName": "netServiceBrowserDidStopSearch(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetServiceBrowser",
-                "printedName": "Foundation.NetServiceBrowser",
-                "usr": "c:objc(cs)NSNetServiceBrowser"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Atlantis@objc(cs)NetServiceTransport(im)netServiceBrowserDidStopSearch:",
-            "mangledName": "$s8Atlantis19NetServiceTransportC03netC20BrowserDidStopSearchyySo05NSNetcF0CF",
-            "moduleName": "Atlantis",
-            "objc_name": "netServiceBrowserDidStopSearch:",
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "netServiceDidResolveAddress",
-            "printedName": "netServiceDidResolveAddress(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetService",
-                "printedName": "Foundation.NetService",
-                "usr": "c:objc(cs)NSNetService"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Atlantis@objc(cs)NetServiceTransport(im)netServiceDidResolveAddress:",
-            "mangledName": "$s8Atlantis19NetServiceTransportC03netC17DidResolveAddressyySo05NSNetC0CF",
-            "moduleName": "Atlantis",
-            "objc_name": "netServiceDidResolveAddress:",
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "netService",
-            "printedName": "netService(_:didNotPublish:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetService",
-                "printedName": "Foundation.NetService",
-                "usr": "c:objc(cs)NSNetService"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Foundation.NSNumber]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSNumber",
-                    "printedName": "Foundation.NSNumber",
-                    "usr": "c:objc(cs)NSNumber"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Atlantis@objc(cs)NetServiceTransport(im)netService:didNotPublish:",
-            "mangledName": "$s8Atlantis19NetServiceTransportC03netC0_13didNotPublishySo05NSNetC0C_SDySSSo8NSNumberCGtF",
-            "moduleName": "Atlantis",
-            "objc_name": "netService:didNotPublish:",
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "netService",
-            "printedName": "netService(_:didNotResolve:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NetService",
-                "printedName": "Foundation.NetService",
-                "usr": "c:objc(cs)NSNetService"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Foundation.NSNumber]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSNumber",
-                    "printedName": "Foundation.NSNumber",
-                    "usr": "c:objc(cs)NSNumber"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Atlantis@objc(cs)NetServiceTransport(im)netService:didNotResolve:",
-            "mangledName": "$s8Atlantis19NetServiceTransportC03netC0_13didNotResolveySo05NSNetC0C_SDySSSo8NSNumberCGtF",
-            "moduleName": "Atlantis",
-            "objc_name": "netService:didNotResolve:",
-            "declAttributes": [
-              "Final",
-              "ObjC"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -13526,6 +13262,41 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -13567,41 +13338,6 @@
             ],
             "usr": "s:s21_ObjectiveCBridgeableP",
             "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
           }
         ]
       },
@@ -13847,6 +13583,20 @@
             ],
             "usr": "s:7Combine9SchedulerP",
             "mangledName": "$s7Combine9SchedulerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TaskExecutor",
+            "printedName": "TaskExecutor",
+            "usr": "s:Sch",
+            "mangledName": "$sSch"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Executor",
+            "printedName": "Executor",
+            "usr": "s:ScF",
+            "mangledName": "$sScF"
           }
         ]
       },
@@ -14397,7 +14147,7 @@
       "kind": "StringLiteral",
       "offset": 2734,
       "length": 8,
-      "value": "\"1.27.0\""
+      "value": "\"1.28.0\""
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Atlantis.swift",
@@ -15228,37 +14978,58 @@
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 989,
+      "offset": 865,
+      "length": 5,
+      "value": "10909"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1095,
       "length": 8,
       "value": "52428800"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
-      "kind": "Array",
-      "offset": 1098,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
       "kind": "StringLiteral",
-      "offset": 1146,
+      "offset": 1194,
       "length": 35,
       "value": "\"com.proxyman.atlantis.netservices\""
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
       "kind": "Array",
-      "offset": 1290,
+      "offset": 1315,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
+      "kind": "Array",
+      "offset": 1463,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
       "kind": "IntegerLiteral",
-      "offset": 1721,
+      "offset": 1584,
       "length": 2,
-      "value": "30"
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1681,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/marcbrady\/Projects\/atlantis\/Sources\/Transporter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1721,
+      "length": 1,
+      "value": "5"
     }
   ]
 }
